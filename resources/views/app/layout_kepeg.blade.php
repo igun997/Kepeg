@@ -116,7 +116,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
             <a href="{{route("cuti")}}" class="nav-link">
               <i class="nav-icon fas fa-file"></i>
               <p>
-                Cuti Pegawai
+                Kelola Cuti Pegawai
               </p>
             </a>
           </li>
@@ -124,7 +124,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
             <a href="{{route("pensiun")}}" class="nav-link">
               <i class="nav-icon fas fa-file"></i>
               <p>
-                Pensiun Pegawai
+                Kelola Pensiun Pegawai
               </p>
             </a>
           </li>
@@ -132,7 +132,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
             <a href="{{route("mutasi")}}" class="nav-link">
               <i class="nav-icon fas fa-file"></i>
               <p>
-                Mutasi Pegawai
+                Kelola Mutasi Pegawai
               </p>
             </a>
           </li>
@@ -140,7 +140,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
             <a href="{{route("kenaikan")}}" class="nav-link">
               <i class="nav-icon fas fa-file"></i>
               <p>
-                Kenaikan Golongan
+                Kelola Kenaikan Golongan
               </p>
             </a>
           </li>
@@ -165,7 +165,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
             <a href="{{route("cuti")}}" class="nav-link">
               <i class="nav-icon fas fa-file"></i>
               <p>
-                Cuti Pegawai
+                Kelola Cuti Pegawai
               </p>
             </a>
           </li>
@@ -173,7 +173,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
             <a href="{{route("pensiun")}}" class="nav-link">
               <i class="nav-icon fas fa-file"></i>
               <p>
-                Pensiun Pegawai
+                Kelola Pensiun Pegawai
               </p>
             </a>
           </li>
@@ -181,7 +181,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
             <a href="{{route("mutasi")}}" class="nav-link">
               <i class="nav-icon fas fa-file"></i>
               <p>
-                Mutasi Pegawai
+                Kelola Mutasi Pegawai
               </p>
             </a>
           </li>
@@ -189,7 +189,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
             <a href="{{route("kenaikan")}}" class="nav-link">
               <i class="nav-icon fas fa-file"></i>
               <p>
-                Kenaikan Golongan
+                Kelola Kenaikan Golongan
               </p>
             </a>
           </li>
