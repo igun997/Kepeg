@@ -16,8 +16,8 @@
               <th>NIP</th>
               <th>Nama Pegawai</th>
               <th>Tanggal Mutasi</th>
-              <th>Divisi Asal</th>
-              <th>Divisi Tujuan</th>
+              <th>Bagian Asal</th>
+              <th>Bagian Tujuan</th>
               <th>Status</th>
               <th>Aksi</th>
               <th>Berkas</th>
@@ -29,8 +29,8 @@
                 <td>{{$v->nip}}</td>
                 <td>{{$v->pegawai->nama_pegawai}}</td>
                 <td>{{date("d-m-Y",strtotime($v->tgl_mutasi))}}</td>
-                <td>{{$v->divisi_asal->nama_divisi}}</td>
-                <td>{{$v->divisi_tujuan->nama_divisi}}</td>
+                <td>{{$v->sub_bagian_asal->bagian->nama_divisi}} - {{$v->sub_bagian_asal->nama_sub}}</td>
+                <td>{{$v->sub_bagian_tujuan->bagian->nama_divisi}} - {{$v->sub_bagian_tujuan->nama_sub}}</td>
                 <td>
                   @if($v->status_validasi == "menunggu")
                   <span class="badge badge-warning">{{ucfirst($v->status_validasi)}}</span>
@@ -79,8 +79,8 @@
               <th>NIP</th>
               <th>Nama Pegawai</th>
               <th>Tanggal Mutasi</th>
-              <th>Divisi Asal</th>
-              <th>Divisi Tujuan</th>
+              <th>Bagian Asal</th>
+              <th>Bagian Tujuan</th>
               <th>Verifikasi Atasan</th>
               <th>Verifikasi Admin</th>
               <th>Berkas</th>
@@ -93,8 +93,8 @@
                 <td>{{$v->nip}}</td>
                 <td>{{$v->pegawai->nama_pegawai}}</td>
                 <td>{{date("d-m-Y",strtotime($v->tgl_mutasi))}}</td>
-                <td>{{$v->divisi_asal->nama_divisi}}</td>
-                <td>{{$v->divisi_tujuan->nama_divisi}}</td>
+                <td>{{$v->sub_bagian_asal->bagian->nama_divisi}} - {{$v->sub_bagian_asal->nama_sub}}</td>
+                <td>{{$v->sub_bagian_tujuan->bagian->nama_divisi}} - {{$v->sub_bagian_tujuan->nama_sub}}</td>
                 <td>
                   @if($v->status_validasi == "menunggu")
                   <span class="badge badge-warning">{{ucfirst($v->status_validasi)}}</span>
